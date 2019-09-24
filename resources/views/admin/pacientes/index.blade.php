@@ -3,9 +3,19 @@
 @section('title', 'Pacientes')
 
 @section('content_header')
-    <h1>Pacientes</h1>
+    <section class="content-header">
+      <h1>Pacientes</h1>
+      <ol class="breadcrumb">
+        <li><a href="{{ url('/') }}"><i class="fa fa-dashboard"></i>Home</a></li>
+        <li class="active">Pacientes</li>
+      </ol>
+    </section>
 @stop
 
 @section('content')
-    <p>Lista de pacientes</p>
+    <div class="box">
+        <div class="box-body">
+            Start creating your amazing application!
+        </div>
+    </div>
 @stop
